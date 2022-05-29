@@ -34,28 +34,16 @@ export default class DetailsScreen extends React.Component{
            <View style={styles.container}>
               <Text
                 style={styles.cardItem}
-              >{`Distance from Earth : ${details.distance_from_earth}`}</Text>
+              >{`Distance from Earth : ${details.distance}`}</Text>
               <Text
                 style={styles.cardItem}
-              >{`Distance from Sun : ${details.distance_from_their_sun}`}</Text>
+              >{`Mass of Sun : ${details.mass}`}</Text>
               <Text
                 style={styles.cardItem}
               >{`Gravity : ${details.gravity}`}</Text>
               <Text
                 style={styles.cardItem}
-              >{`Orbital Period : ${details.orbital_period}`}</Text>
-              <Text
-                style={styles.cardItem}
-              >{`Orbital Speed : ${details.orbital_speed}`}</Text>
-              <Text
-                style={styles.cardItem}
-              >{`Planet Mass : ${details.planet_mass}`}</Text>
-              <Text
-                style={styles.cardItem}
-              >{`Planet Radius : ${details.planet_radius}`}</Text>
-              <Text
-                style={styles.cardItem}
-              >{`Planet Type : ${details.planet_type}`}</Text>
+              >{`Radius of Sun: ${details.radius}`}</Text>
             </View>
         );
     }
